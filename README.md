@@ -8,6 +8,7 @@ A production-grade FastAPI pipeline that ingests messy IoT telematics data from 
 
 ```bash
 pip install pipenv
+pipenv shell
 pipenv install
 pipenv run uvicorn main:app --host 127.0.0.1 --port 8000
 ```
